@@ -4,6 +4,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+# configuring logging module
 logging.basicConfig(level=logging.DEBUG)
 
 movie_name = []
